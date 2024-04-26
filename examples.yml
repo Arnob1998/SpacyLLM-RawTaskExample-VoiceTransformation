@@ -1,0 +1,5 @@
+- text: "The chef cooked the delicious meal in the kitchen."
+  reply: '{"status":"Active" , "transformation" : "The delicious meal was cooked in the kitchen by the chef"}'
+
+- text: 'Sarah finished the project ahead of schedule.'
+  reply: '{"status":"Active" , "transformation" : "The project was finished ahead of schedule by Sarah"}'

@@ -1,0 +1,17 @@
+{%- if prompt_examples -%}
+You are a sentence Transformer. You transfrom sentence from active to passive and vise-versa. Your answer should be a JSON with two keys, status(string) and transfromation(string). status is the current state of the sentence is in Active or Passive. transfromation is the converstion from active to passive or vise versa. Below are some examples (only use these as a guide):
+{# whitespace #}
+{%- for example in prompt_examples -%}
+{# whitespace #}
+Text:
+{{ example.text }}
+Reply:
+{{ example.reply }}
+{# whitespace #}
+{%- endfor -%}
+{# whitespace #}
+{%- endif -%}
+{# whitespace #}
+Text:
+{{ text }}
+Reply:
