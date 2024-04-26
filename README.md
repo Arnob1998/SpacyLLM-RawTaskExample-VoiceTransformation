@@ -1,0 +1,2 @@
+# SpacyLLM-RawTaskExample-VoiceTransformation
+ A powerful yet user-friendly toolkit for natural language processing (NLP) tasks, showcasing the seamless integration of Large Language Models (LLMs) into spaCy pipelines. Effortlessly prototype and execute complex NLP transformations with minimal effort. The project features a modular system that allows for fast prototyping and prompting, enabling you to turn unstructured text into robust outputs for various NLP tasks without the need for extensive training data.
